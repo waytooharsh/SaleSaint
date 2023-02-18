@@ -1,0 +1,162 @@
+{
+  "p1": {
+    "Product Name": "PET Bottle",
+    "MRP": 130,
+    "Discount": "8%",
+    "GST Rate": "12%",
+    "GST": 14.35,
+    "Selling Price": 119.6
+  },
+  "p2": {
+    "Product Name": "Cooking Oil",
+    "MRP": 145,
+    "Discount": "10%",
+    "GST Rate": "5%",
+    "GST": 6.53,
+    "Selling Price": 130.5
+  },
+  "p3": {
+    "Product Name": "Marie Biscuit",
+    "MRP": 40,
+    "Discount": "7%",
+    "GST Rate": "18%",
+    "GST": 6.7,
+    "Selling Price": 37.2
+  },
+  "p4": {
+    "Product Name": "Colgate Toothpaste",
+    "MRP": 95,
+    "Discount": "8%",
+    "GST Rate": "18%",
+    "GST": 15.73,
+    "Selling Price": 87.4
+  },
+  "p5": {
+    "Product Name": "Toothbrush",
+    "MRP": 40,
+    "Discount": "5%",
+    "GST Rate": "5%",
+    "GST": 1.9,
+    "Selling Price": 38
+  },
+  "p6": {
+    "Product Name": "Plastic Bucket",
+    "MRP": 200,
+    "Discount": "11%",
+    "GST Rate": "12%",
+    "GST": 21.36,
+    "Selling Price": 178
+  },
+  "p7": {
+    "Product Name": "Ice Cubes",
+    "MRP": 20,
+    "Discount": "5%",
+    "GST Rate": "5%",
+    "GST": 0.95,
+    "Selling Price": 19
+  },
+  "p8": {
+    "Product Name": "Real Cranberry Mixer",
+    "MRP": 135,
+    "Discount": "6%",
+    "GST Rate": "28%",
+    "GST": 35.53,
+    "Selling Price": 126.9
+  },
+  "p9": {
+    "Product Name": "Marlboro Advance",
+    "MRP": 330,
+    "Discount": "0%",
+    "GST Rate": "28%",
+    "GST": 92.4,
+    "Selling Price": 330
+  },
+  "p10": {
+    "Product Name": "Zippo Lighter",
+    "MRP": 2000,
+    "Discount": "5%",
+    "GST Rate": "28%",
+    "GST": 532,
+    "Selling Price": 1900
+  },
+  "p11": {
+    "Product Name": "Lays Chips",
+    "MRP": 20,
+    "Discount": "14%",
+    "GST Rate": "5%",
+    "GST": 0.86,
+    "Selling Price": 17.2
+  },
+  "p12": {
+    "Product Name": "Dettol Handwash",
+    "MRP": 80,
+    "Discount": "15%",
+    "GST Rate": "18%",
+    "GST": 12.24,
+    "Selling Price": 68
+  },
+  "p13": {
+    "Product Name": "Shower Gel",
+    "MRP": 110,
+    "Discount": "7%",
+    "GST Rate": "18%",
+    "GST": 18.41,
+    "Selling Price": 102.3
+  },
+  "p14": {
+    "Product Name": "Sleepy Owl Coffee",
+    "MRP": 560,
+    "Discount": "12%",
+    "GST Rate": "5%",
+    "GST": 24.64,
+    "Selling Price": 492.8
+  },
+  "p15": {
+    "Product Name": "Tata Tea Gold",
+    "MRP": 640,
+    "Discount": "17%",
+    "GST Rate": "5%",
+    "GST": 26.56,
+    "Selling Price": 531.2
+  },
+  "p16": {
+    "Product Name": "Vinegar",
+    "MRP": 50,
+    "Discount": "10%",
+    "GST Rate": "18%",
+    "GST": 8.1,
+    "Selling Price": 45
+  },
+  "p17": {
+    "Product Name": "Hot Sauce",
+    "MRP": 250,
+    "Discount": "10%",
+    "GST Rate": "12%",
+    "GST": 27,
+    "Selling Price": 225
+  },
+  "p18": {
+    "Product Name": "Noodles",
+    "MRP": 80,
+    "Discount": "9%",
+    "GST Rate": "5%",
+    "GST": 3.64,
+    "Selling Price": 72.8
+  },
+  "p19": {
+    "Product Name": "Milk",
+    "MRP": 60,
+    "Discount": "5%",
+    "GST Rate": "5%",
+    "GST": 2.85,
+    "Selling Price": 57
+  },
+  "p": {
+    "Product Name": "",
+    "MRP": "",
+    "Discount": "",
+    "GST Rate": "",
+    "GST": "",
+    "Selling Price": ""
+  }
+}
