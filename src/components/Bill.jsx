@@ -44,7 +44,9 @@ function Bill(props) {
                   <td>&#8377; {item.GST}</td>
                   <td>&#8377; {item["Selling Price"]}</td>
                   <td>{props.quan[i]}</td>
-                  <td>&#8377; {item["Selling Price"] * props.quan[i]}</td>
+                  <td>
+                    &#8377; {(item["Selling Price"] * props.quan[i]).toFixed(2)}
+                  </td>
                 </tr>
               );
             })}

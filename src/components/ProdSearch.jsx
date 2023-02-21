@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import { IoIosAddCircle } from "react-icons/io";
 import ProdDetails from "./ProdDetails";
 import { useState, useEffect } from "react";
-
+import "./prodSearchStyle.css";
 const ProdSearch = (props) => {
   let pList = require("./assets/pricelist.json");
   const [noOfItem, setNoOfItem] = useState(1);
@@ -19,52 +19,26 @@ const ProdSearch = (props) => {
       setGrand(grand + pList["p" + inputPID]["Selling Price"] * noOfItem);
     }
   };
-  const addbtnstyle = {
-    padding: "4px",
-    border: "none",
-    margin: "0px 20px",
-    flex: "1",
-  };
+
   useEffect(() => {
     props.fetchItems(invEntry);
     props.quantity(inputQuantity);
-    props.gTotal(grand);
+    props.gTotal(grand.toFixed(2));
   }, [invEntry, inputQuantity]);
   return (
     <div>
-      <Form
-        style={{
-          display: "flex",
-        }}
-      >
-        <Form.Label
-          style={{
-            flex: "1",
-            margin: "10px",
-          }}
-        >
-          Product ID:
-        </Form.Label>
+      <Form className="searchForm">
+        <Form.Label className="label">Product ID:</Form.Label>
         <FormControl
           type="text"
-          placeholder="Product ID"
+          placeholder="Product ID (1-19)"
           size="sm"
           onChange={(e) => {
             setInputPID(e.target.value);
           }}
-          style={{
-            flex: "3",
-            borderRadius: "25px",
-          }}
+          className="inputField"
         />
-        <Form.Label
-          style={{
-            flex: "1",
-            margin: "10px",
-          }}
-        >
-          Quantity:
-        </Form.Label>
+        <Form.Label className="label">Quantity:</Form.Label>
         <FormControl
           type="text"
           placeholder="Quantity"
@@ -72,15 +46,12 @@ const ProdSearch = (props) => {
           onChange={(e) => {
             setNoOfItem(e.target.value);
           }}
-          style={{
-            flex: "3",
-            borderRadius: "25px",
-          }}
+          className="inputField"
         />
         <Button
           variant="light"
           size="sm"
-          style={addbtnstyle}
+          className="addbtnstyle"
           onClick={updateItems}
         >
           <IoIosAddCircle

@@ -1,0 +1,17 @@
+.searchForm {
+  display: flex;
+}
+.searchForm .label {
+  flex: 1;
+  margin: 10px;
+}
+.searchForm .inputField {
+  flex: 3;
+  border-radius: 25px;
+}
+.addbtnstyle {
+  padding: 4px;
+  border: none;
+  margin: 0px 20px;
+  flex: 1;
+}
