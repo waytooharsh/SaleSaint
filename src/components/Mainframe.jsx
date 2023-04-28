@@ -17,7 +17,7 @@ function Mainframe() {
         margin: 10,
       }}
     >
-      <Card.Header>Invoice Generator</Card.Header>
+      <Card.Header>Invoice Generation</Card.Header>
       <Card.Body>
         <ProdSearch
           fetchItems={setItemList}
