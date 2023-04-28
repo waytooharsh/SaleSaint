@@ -1,8 +1,8 @@
+import React from "react";
 import Container from "react-bootstrap/Container";
+import Image from "react-bootstrap/Image";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import Image from "react-bootstrap/Image";
-import React from "react";
 import logo40 from "./assets/images/logo40.png";
 function Navigation() {
   const navStyle = {

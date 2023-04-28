@@ -1,5 +1,5 @@
-import Navigation from "./components/Navbar";
 import Mainframe from "./components/Mainframe";
+import Navigation from "./components/Navbar";
 
 function App() {
   return (

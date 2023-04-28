@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Card from "react-bootstrap/Card";
-import ProdSearch from "./ProdSearch";
 import Bill from "./Bill";
 import GrandTotal from "./GrandTotal";
+import ProdSearch from "./ProdSearch";
 function Mainframe() {
   const [itemList, setItemList] = useState([]);
   const [quantities, setQuantities] = useState([]);

@@ -1,4 +1,4 @@
-import { Card, Row, Col } from "react-bootstrap";
+import { Card, Col, Row } from "react-bootstrap";
 const GrandTotal = (props) => {
   return (
     <Card
